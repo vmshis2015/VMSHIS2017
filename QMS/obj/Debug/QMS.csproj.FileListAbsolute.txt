@@ -1,0 +1,14 @@
+E:\MyProject\Projects\VMS_ANH_170715\VMS2017\VMS2017\Running\QMS.exe.config
+E:\MyProject\Projects\VMS_ANH_170715\VMS2017\VMS2017\Running\QMS.exe
+E:\MyProject\Projects\VMS_ANH_170715\VMS2017\VMS2017\Running\QMS.pdb
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.csprojResolveAssemblyReference.cache
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\VNS.QMS.frm_QMS.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\VNS.QMS.frm_SoKham.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.Properties.Resources.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\SView.UCs.medCheckBox.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.UCs.ucQMS.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.UCs.ucQMSItem.resources
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.csproj.GenerateResource.Cache
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.exe.licenses
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.exe
+E:\MyProject\Projects\VMS_ANH_170715\VMSHIS2017\QMS\obj\Debug\QMS.pdb

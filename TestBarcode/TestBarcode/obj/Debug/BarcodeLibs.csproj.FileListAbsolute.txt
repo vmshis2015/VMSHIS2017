@@ -1,0 +1,8 @@
+E:\VMS_NEw\Running\BarcodeLibs.dll
+E:\VMS_NEw\Running\BarcodeLibs.pdb
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.csprojResolveAssemblyReference.cache
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.Form1.resources
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.Properties.Resources.resources
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.csproj.GenerateResource.Cache
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.dll
+E:\VMS_NEw\trunk\TestBarcode\TestBarcode\obj\Debug\BarcodeLibs.pdb

@@ -1,0 +1,2458 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="tbl_Functions">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CHON" type="xs:string" minOccurs="0" />
+                <xs:element name="PK_iID" type="xs:long" minOccurs="0" />
+                <xs:element name="FP_sBranchID" type="xs:string" minOccurs="0" />
+                <xs:element name="sFunctionName" type="xs:string" minOccurs="0" />
+                <xs:element name="sDLLname" type="xs:string" minOccurs="0" />
+                <xs:element name="sFormName" type="xs:string" minOccurs="0" />
+                <xs:element name="sAssemblyName" type="xs:string" minOccurs="0" />
+                <xs:element name="bEnable" type="xs:boolean" minOccurs="0" />
+                <xs:element name="sParameterList" type="xs:string" minOccurs="0" />
+                <xs:element name="sDesc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tbl_Params">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Chon" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:long" minOccurs="0" />
+                <xs:element name="FP_sBranchID" type="xs:string" minOccurs="0" />
+                <xs:element name="sName" type="xs:string" minOccurs="0" />
+                <xs:element name="sDataType" type="xs:string" minOccurs="0" />
+                <xs:element name="sValue" type="xs:string" minOccurs="0" />
+                <xs:element name="iMonth" type="xs:int" minOccurs="0" />
+                <xs:element name="iYear" type="xs:int" minOccurs="0" />
+                <xs:element name="iStatus" type="xs:short" minOccurs="0" />
+                <xs:element name="sDesc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TBL_RFU">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="CHON" type="xs:string" minOccurs="0" />
+                <xs:element name="sUID" type="xs:string" minOccurs="0" />
+                <xs:element name="iROLEID" type="xs:long" minOccurs="0" />
+                <xs:element name="iParentRoleID" type="xs:long" minOccurs="0" />
+                <xs:element name="iOrder" type="xs:int" minOccurs="0" />
+                <xs:element name="sRoleName" type="xs:string" minOccurs="0" />
+                <xs:element name="sDLLName" type="xs:string" minOccurs="0" />
+                <xs:element name="sFunctionName" type="xs:string" minOccurs="0" />
+                <xs:element name="sFormName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TBL_USERS">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="PK_sUID" type="xs:string" minOccurs="0" />
+                <xs:element name="FP_sBranchID" type="xs:string" minOccurs="0" />
+                <xs:element name="sPwd" type="xs:string" minOccurs="0" />
+                <xs:element name="sFullName" type="xs:string" minOccurs="0" />
+                <xs:element name="sDepart" type="xs:string" minOccurs="0" />
+                <xs:element name="tDateCreated" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="iSecurityLevel" type="xs:short" minOccurs="0" />
+                <xs:element name="sDesc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TBL_ROLES">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FP_sBranchID" type="xs:string" minOccurs="0" />
+                <xs:element name="iRole" type="xs:long" minOccurs="0" />
+                <xs:element name="iParentRole" type="xs:long" minOccurs="0" />
+                <xs:element name="sRoleName" type="xs:string" minOccurs="0" />
+                <xs:element name="sEngRoleName" type="xs:string" minOccurs="0" />
+                <xs:element name="iOrder" type="xs:int" minOccurs="0" />
+                <xs:element name="sIconPath" type="xs:string" minOccurs="0" />
+                <xs:element name="sImgPath" type="xs:string" minOccurs="0" />
+                <xs:element name="intShortCutKey" type="xs:int" minOccurs="0" />
+                <xs:element name="FK_iFunctionID" type="xs:long" minOccurs="0" />
+                <xs:element name="sDesc" type="xs:string" minOccurs="0" />
+                <xs:element name="sDLLName" type="xs:string" minOccurs="0" />
+                <xs:element name="sFormName" type="xs:string" minOccurs="0" />
+                <xs:element name="sFunctionName" type="xs:string" minOccurs="0" />
+                <xs:element name="sAssemblyName" type="xs:string" minOccurs="0" />
+                <xs:element name="sParameterList" type="xs:string" minOccurs="0" />
+                <xs:element name="bEnable" type="xs:boolean" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tbl_Functions>
+    <CHON>F</CHON>
+    <PK_iID>54</PK_iID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sFunctionName>Chức năng 1</sFunctionName>
+    <sDLLname>hainm</sDLLname>
+    <sFormName>form1</sFormName>
+    <sAssemblyName>hainm.form1</sAssemblyName>
+    <bEnable>true</bEnable>
+    <sParameterList>1,2</sParameterList>
+    <sDesc />
+  </tbl_Functions>
+  <tbl_Functions>
+    <CHON>F</CHON>
+    <PK_iID>55</PK_iID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sFunctionName>Chức năng 2</sFunctionName>
+    <sDLLname>HAINM</sDLLname>
+    <sFormName>Form2</sFormName>
+    <sAssemblyName>HAINM.Form2</sAssemblyName>
+    <bEnable>true</bEnable>
+    <sParameterList />
+    <sDesc />
+  </tbl_Functions>
+  <tbl_Functions>
+    <CHON>F</CHON>
+    <PK_iID>56</PK_iID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sFunctionName>Chức năng 3</sFunctionName>
+    <sDLLname>PRJ</sDLLname>
+    <sFormName>ABCD</sFormName>
+    <sAssemblyName>PRJ.ABCD</sAssemblyName>
+    <bEnable>true</bEnable>
+    <sParameterList />
+    <sDesc />
+  </tbl_Functions>
+  <tbl_Params>
+    <Chon>F</Chon>
+    <ID>5</ID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sName>G_ABCD</sName>
+    <sDataType>nvarchar</sDataType>
+    <sValue>Chiều tím hoàng hôn</sValue>
+    <iMonth>0</iMonth>
+    <iYear>0</iYear>
+    <iStatus>1</iStatus>
+    <sDesc>Unknown</sDesc>
+  </tbl_Params>
+  <tbl_Params>
+    <Chon>F</Chon>
+    <ID>6</ID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sName>PARAM1</sName>
+    <sDataType>bigint</sDataType>
+    <sValue>2</sValue>
+    <iMonth>0</iMonth>
+    <iYear>0</iYear>
+    <iStatus>1</iStatus>
+    <sDesc>Unknown</sDesc>
+  </tbl_Params>
+  <tbl_Params>
+    <Chon>F</Chon>
+    <ID>7</ID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sName>PARAM2</sName>
+    <sDataType>boolean</sDataType>
+    <sValue>32</sValue>
+    <iMonth>0</iMonth>
+    <iYear>0</iYear>
+    <iStatus>1</iStatus>
+    <sDesc>Unknown</sDesc>
+  </tbl_Params>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>3123</iROLEID>
+    <iParentRoleID>-2</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Quản lý thông tin khách hàng</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6439</iROLEID>
+    <iParentRoleID>6417</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6440</iROLEID>
+    <iParentRoleID>6439</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6684</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6685</iROLEID>
+    <iParentRoleID>6684</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6686</iROLEID>
+    <iParentRoleID>6685</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6692</iROLEID>
+    <iParentRoleID>6691</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6693</iROLEID>
+    <iParentRoleID>6692</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6699</iROLEID>
+    <iParentRoleID>6698</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6700</iROLEID>
+    <iParentRoleID>6699</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6706</iROLEID>
+    <iParentRoleID>6705</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6707</iROLEID>
+    <iParentRoleID>6706</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6713</iROLEID>
+    <iParentRoleID>6712</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6714</iROLEID>
+    <iParentRoleID>6713</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6720</iROLEID>
+    <iParentRoleID>6719</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6721</iROLEID>
+    <iParentRoleID>6720</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6727</iROLEID>
+    <iParentRoleID>6726</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6728</iROLEID>
+    <iParentRoleID>6727</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6734</iROLEID>
+    <iParentRoleID>6733</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6735</iROLEID>
+    <iParentRoleID>6734</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6741</iROLEID>
+    <iParentRoleID>6740</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6742</iROLEID>
+    <iParentRoleID>6741</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6748</iROLEID>
+    <iParentRoleID>6747</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6749</iROLEID>
+    <iParentRoleID>6748</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6754</iROLEID>
+    <iParentRoleID>3127</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6755</iROLEID>
+    <iParentRoleID>6754</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6756</iROLEID>
+    <iParentRoleID>6755</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6762</iROLEID>
+    <iParentRoleID>6761</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6763</iROLEID>
+    <iParentRoleID>6762</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6769</iROLEID>
+    <iParentRoleID>6768</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6770</iROLEID>
+    <iParentRoleID>6769</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6776</iROLEID>
+    <iParentRoleID>6775</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6777</iROLEID>
+    <iParentRoleID>6776</iParentRoleID>
+    <iOrder>1</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>3127</iROLEID>
+    <iParentRoleID>-2</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Hóa đơn</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6417</iROLEID>
+    <iParentRoleID>3123</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6441</iROLEID>
+    <iParentRoleID>6439</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6687</iROLEID>
+    <iParentRoleID>6685</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6694</iROLEID>
+    <iParentRoleID>6692</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6698</iROLEID>
+    <iParentRoleID>3123</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6701</iROLEID>
+    <iParentRoleID>6699</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6708</iROLEID>
+    <iParentRoleID>6706</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6715</iROLEID>
+    <iParentRoleID>6713</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6722</iROLEID>
+    <iParentRoleID>6720</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6726</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6729</iROLEID>
+    <iParentRoleID>6727</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6736</iROLEID>
+    <iParentRoleID>6734</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6743</iROLEID>
+    <iParentRoleID>6741</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6750</iROLEID>
+    <iParentRoleID>6748</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6757</iROLEID>
+    <iParentRoleID>6755</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6761</iROLEID>
+    <iParentRoleID>3127</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6764</iROLEID>
+    <iParentRoleID>6762</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6771</iROLEID>
+    <iParentRoleID>6769</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6778</iROLEID>
+    <iParentRoleID>6776</iParentRoleID>
+    <iOrder>2</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>3128</iROLEID>
+    <iParentRoleID>-2</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Công nợ</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6442</iROLEID>
+    <iParentRoleID>6439</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6688</iROLEID>
+    <iParentRoleID>6685</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6695</iROLEID>
+    <iParentRoleID>6692</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6702</iROLEID>
+    <iParentRoleID>6699</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6705</iROLEID>
+    <iParentRoleID>3123</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6709</iROLEID>
+    <iParentRoleID>6706</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6716</iROLEID>
+    <iParentRoleID>6713</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6723</iROLEID>
+    <iParentRoleID>6720</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6730</iROLEID>
+    <iParentRoleID>6727</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6733</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6737</iROLEID>
+    <iParentRoleID>6734</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6744</iROLEID>
+    <iParentRoleID>6741</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6751</iROLEID>
+    <iParentRoleID>6748</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6758</iROLEID>
+    <iParentRoleID>6755</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6765</iROLEID>
+    <iParentRoleID>6762</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6768</iROLEID>
+    <iParentRoleID>3127</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6772</iROLEID>
+    <iParentRoleID>6769</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6779</iROLEID>
+    <iParentRoleID>6776</iParentRoleID>
+    <iOrder>3</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6443</iROLEID>
+    <iParentRoleID>6439</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6689</iROLEID>
+    <iParentRoleID>6685</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6696</iROLEID>
+    <iParentRoleID>6692</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6703</iROLEID>
+    <iParentRoleID>6699</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6710</iROLEID>
+    <iParentRoleID>6706</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6712</iROLEID>
+    <iParentRoleID>3123</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6717</iROLEID>
+    <iParentRoleID>6713</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6724</iROLEID>
+    <iParentRoleID>6720</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6731</iROLEID>
+    <iParentRoleID>6727</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6738</iROLEID>
+    <iParentRoleID>6734</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6740</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6745</iROLEID>
+    <iParentRoleID>6741</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6752</iROLEID>
+    <iParentRoleID>6748</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6759</iROLEID>
+    <iParentRoleID>6755</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6766</iROLEID>
+    <iParentRoleID>6762</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6773</iROLEID>
+    <iParentRoleID>6769</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6775</iROLEID>
+    <iParentRoleID>3127</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6780</iROLEID>
+    <iParentRoleID>6776</iParentRoleID>
+    <iOrder>4</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6444</iROLEID>
+    <iParentRoleID>6439</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6690</iROLEID>
+    <iParentRoleID>6685</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6691</iROLEID>
+    <iParentRoleID>3127</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6697</iROLEID>
+    <iParentRoleID>6692</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6704</iROLEID>
+    <iParentRoleID>6699</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6711</iROLEID>
+    <iParentRoleID>6706</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6718</iROLEID>
+    <iParentRoleID>6713</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6725</iROLEID>
+    <iParentRoleID>6720</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6732</iROLEID>
+    <iParentRoleID>6727</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6739</iROLEID>
+    <iParentRoleID>6734</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6746</iROLEID>
+    <iParentRoleID>6741</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6747</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6753</iROLEID>
+    <iParentRoleID>6748</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6760</iROLEID>
+    <iParentRoleID>6755</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6767</iROLEID>
+    <iParentRoleID>6762</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6774</iROLEID>
+    <iParentRoleID>6769</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6781</iROLEID>
+    <iParentRoleID>6776</iParentRoleID>
+    <iOrder>5</iOrder>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+  </TBL_RFU>
+  <TBL_RFU>
+    <CHON>F</CHON>
+    <sUID>CUONGDV</sUID>
+    <iROLEID>6719</iROLEID>
+    <iParentRoleID>3128</iParentRoleID>
+    <iOrder>6</iOrder>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+  </TBL_RFU>
+  <TBL_USERS>
+    <PK_sUID>CUONGDV</PK_sUID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sPwd>boMVYzC67kUZgy8JNIkDtg==</sPwd>
+    <sFullName>Unknown</sFullName>
+    <sDepart>Unknown</sDepart>
+    <tDateCreated>1900-01-01T00:00:00.0000000+07:00</tDateCreated>
+    <iSecurityLevel>0</iSecurityLevel>
+    <sDesc>Unknown</sDesc>
+  </TBL_USERS>
+  <TBL_USERS>
+    <PK_sUID>HAINM</PK_sUID>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <sPwd>boMVYzC67kUZgy8JNIkDtg==</sPwd>
+    <sFullName>Nguyễn Minh Hải</sFullName>
+    <sDepart>Tài Chính</sDepart>
+    <tDateCreated>1900-01-01T00:00:00.0000000+07:00</tDateCreated>
+    <iSecurityLevel>0</iSecurityLevel>
+    <sDesc>Unknown</sDesc>
+  </TBL_USERS>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>3123</iRole>
+    <iParentRole>-2</iParentRole>
+    <sRoleName>Quản lý thông tin khách hàng</sRoleName>
+    <sEngRoleName>Customer Information</sEngRoleName>
+    <iOrder>1</iOrder>
+    <sIconPath>C:\ImgsAndIcons\RoseTrio.jpg</sIconPath>
+    <sImgPath>C:\Giai tri\2219.jpg</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc>Unknown</sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6754</iRole>
+    <iParentRole>3127</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6684</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6439</iRole>
+    <iParentRole>6417</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6440</iRole>
+    <iParentRole>6439</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>55</FK_iFunctionID>
+    <sDesc> </sDesc>
+    <sDLLName>HAINM</sDLLName>
+    <sFormName>Form2</sFormName>
+    <sFunctionName>Chức năng 2</sFunctionName>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6685</iRole>
+    <iParentRole>6684</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6686</iRole>
+    <iParentRole>6685</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6692</iRole>
+    <iParentRole>6691</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6693</iRole>
+    <iParentRole>6692</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6699</iRole>
+    <iParentRole>6698</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6700</iRole>
+    <iParentRole>6699</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6706</iRole>
+    <iParentRole>6705</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6707</iRole>
+    <iParentRole>6706</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6713</iRole>
+    <iParentRole>6712</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6714</iRole>
+    <iParentRole>6713</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6720</iRole>
+    <iParentRole>6719</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6721</iRole>
+    <iParentRole>6720</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6727</iRole>
+    <iParentRole>6726</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6728</iRole>
+    <iParentRole>6727</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6734</iRole>
+    <iParentRole>6733</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6735</iRole>
+    <iParentRole>6734</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6741</iRole>
+    <iParentRole>6740</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6742</iRole>
+    <iParentRole>6741</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6748</iRole>
+    <iParentRole>6747</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6749</iRole>
+    <iParentRole>6748</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6755</iRole>
+    <iParentRole>6754</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6756</iRole>
+    <iParentRole>6755</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6762</iRole>
+    <iParentRole>6761</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6763</iRole>
+    <iParentRole>6762</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6769</iRole>
+    <iParentRole>6768</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6770</iRole>
+    <iParentRole>6769</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6776</iRole>
+    <iParentRole>6775</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6777</iRole>
+    <iParentRole>6776</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 1</sRoleName>
+    <sEngRoleName />
+    <iOrder>1</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>3127</iRole>
+    <iParentRole>-2</iParentRole>
+    <sRoleName>Hóa đơn</sRoleName>
+    <sEngRoleName>Invoice</sEngRoleName>
+    <iOrder>2</iOrder>
+    <sIconPath>C:\ImgsAndIcons\icon\195.ico</sIconPath>
+    <sImgPath>C:\SetUp\CUANAM_CUONGDV\CuongDV\Anh Cuong\Picture\Pictures\Anh\Picture1\Flowers\Phong Lan\LAN113.JPG</sImgPath>
+    <intShortCutKey>-1</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc>Unknown</sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6417</iRole>
+    <iParentRole>3123</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6698</iRole>
+    <iParentRole>3123</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6761</iRole>
+    <iParentRole>3127</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6726</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6441</iRole>
+    <iParentRole>6439</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6687</iRole>
+    <iParentRole>6685</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6694</iRole>
+    <iParentRole>6692</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6701</iRole>
+    <iParentRole>6699</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6708</iRole>
+    <iParentRole>6706</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6715</iRole>
+    <iParentRole>6713</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6722</iRole>
+    <iParentRole>6720</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6729</iRole>
+    <iParentRole>6727</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6736</iRole>
+    <iParentRole>6734</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6743</iRole>
+    <iParentRole>6741</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6750</iRole>
+    <iParentRole>6748</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6757</iRole>
+    <iParentRole>6755</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6764</iRole>
+    <iParentRole>6762</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6771</iRole>
+    <iParentRole>6769</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6778</iRole>
+    <iParentRole>6776</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 2</sRoleName>
+    <sEngRoleName />
+    <iOrder>2</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>3128</iRole>
+    <iParentRole>-2</iParentRole>
+    <sRoleName>Công nợ</sRoleName>
+    <sEngRoleName>Debit and Credit</sEngRoleName>
+    <iOrder>3</iOrder>
+    <sIconPath>UNKNOWN</sIconPath>
+    <sImgPath>C:\SetUp\CUANAM_CUONGDV\CuongDV\Anh Cuong\Picture\Pictures\Anh\Picture1\Flowers\Phong Lan\176.JPG</sImgPath>
+    <intShortCutKey>-1</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc>Unknown</sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6705</iRole>
+    <iParentRole>3123</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6768</iRole>
+    <iParentRole>3127</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6733</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6442</iRole>
+    <iParentRole>6439</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6688</iRole>
+    <iParentRole>6685</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6695</iRole>
+    <iParentRole>6692</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6702</iRole>
+    <iParentRole>6699</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6709</iRole>
+    <iParentRole>6706</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6716</iRole>
+    <iParentRole>6713</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6723</iRole>
+    <iParentRole>6720</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6730</iRole>
+    <iParentRole>6727</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6737</iRole>
+    <iParentRole>6734</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6744</iRole>
+    <iParentRole>6741</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6751</iRole>
+    <iParentRole>6748</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6758</iRole>
+    <iParentRole>6755</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6765</iRole>
+    <iParentRole>6762</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6772</iRole>
+    <iParentRole>6769</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6779</iRole>
+    <iParentRole>6776</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 3</sRoleName>
+    <sEngRoleName />
+    <iOrder>3</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6712</iRole>
+    <iParentRole>3123</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6775</iRole>
+    <iParentRole>3127</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6740</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6443</iRole>
+    <iParentRole>6439</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6689</iRole>
+    <iParentRole>6685</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6696</iRole>
+    <iParentRole>6692</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6703</iRole>
+    <iParentRole>6699</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6710</iRole>
+    <iParentRole>6706</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6717</iRole>
+    <iParentRole>6713</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6724</iRole>
+    <iParentRole>6720</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6731</iRole>
+    <iParentRole>6727</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6738</iRole>
+    <iParentRole>6734</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6745</iRole>
+    <iParentRole>6741</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6752</iRole>
+    <iParentRole>6748</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6759</iRole>
+    <iParentRole>6755</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6766</iRole>
+    <iParentRole>6762</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6773</iRole>
+    <iParentRole>6769</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6780</iRole>
+    <iParentRole>6776</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 4</sRoleName>
+    <sEngRoleName />
+    <iOrder>4</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6691</iRole>
+    <iParentRole>3127</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6747</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6444</iRole>
+    <iParentRole>6439</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6690</iRole>
+    <iParentRole>6685</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6697</iRole>
+    <iParentRole>6692</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6704</iRole>
+    <iParentRole>6699</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6711</iRole>
+    <iParentRole>6706</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6718</iRole>
+    <iParentRole>6713</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6725</iRole>
+    <iParentRole>6720</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6732</iRole>
+    <iParentRole>6727</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6739</iRole>
+    <iParentRole>6734</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6746</iRole>
+    <iParentRole>6741</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6753</iRole>
+    <iParentRole>6748</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6760</iRole>
+    <iParentRole>6755</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6767</iRole>
+    <iParentRole>6762</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6774</iRole>
+    <iParentRole>6769</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6781</iRole>
+    <iParentRole>6776</iParentRole>
+    <sRoleName>Tiếp nhận giấy đăng ký 5</sRoleName>
+    <sEngRoleName />
+    <iOrder>5</iOrder>
+    <sIconPath />
+    <sImgPath />
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+  <TBL_ROLES>
+    <FP_sBranchID>EVNIT001</FP_sBranchID>
+    <iRole>6719</iRole>
+    <iParentRole>3128</iParentRole>
+    <sRoleName>Phát triển khách hàng mới</sRoleName>
+    <sEngRoleName> </sEngRoleName>
+    <iOrder>6</iOrder>
+    <sIconPath />
+    <sImgPath>NoPath</sImgPath>
+    <intShortCutKey>0</intShortCutKey>
+    <FK_iFunctionID>-1</FK_iFunctionID>
+    <sDesc> </sDesc>
+  </TBL_ROLES>
+</NewDataSet>

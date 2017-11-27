@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.1.0.2201
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SysMan_DVC", "SysMan_DVC.vbproj", "{E92F8F5C-3288-49AA-A3DF-2E17DE999E23}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E92F8F5C-3288-49AA-A3DF-2E17DE999E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92F8F5C-3288-49AA-A3DF-2E17DE999E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92F8F5C-3288-49AA-A3DF-2E17DE999E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92F8F5C-3288-49AA-A3DF-2E17DE999E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
