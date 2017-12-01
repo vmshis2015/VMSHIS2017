@@ -37,8 +37,6 @@ using Janus.Windows.UI.StatusBar;
 using newLib;
 using System.ServiceProcess;
 using System.ComponentModel;
-using Leadtools;
-using Leadtools.Barcode;
 
 
 namespace VNS.Libs
@@ -7171,56 +7169,8 @@ namespace VNS.Libs
             }
             dataTable.AcceptChanges();
         }
-        public static void CreateBarcodeData(ref DataTable dt, string _value)
-        {
-            try
-            {
-                string ErrMsg="";
-                int resolution =Utility.Int32Dbnull( Laygiatrithamsohethong("BARCODE_RESOLUTION","300",false),300);
-                int Width =Utility.Int32Dbnull( Laygiatrithamsohethong("BARCODE_WIDTH","600",false),600);
-                int Height =Utility.Int32Dbnull( Laygiatrithamsohethong("BARCODE_HEIGHT","200",false),200);
-                bool BARCODE_MEMORY = Laygiatrithamsohethong("BARCODE_MEMORY", "0", false) == "1";
-                if (!dt.Columns.Contains("BarCode")) dt.Columns.Add("BarCode", typeof(byte[]));
-                byte[] bytBarcode = BarcodeLibs.BarcodeCreator.CreateBarcode(BarcodeSymbology.Code128,  _value, resolution, Width, Height, true,BARCODE_MEMORY, ref ErrMsg);
-                if (bytBarcode == null)
-                    CreateBarcodeDataMarby(ref dt, _value);
-                else
-                {
-                    foreach (DataRow dr in dt.Rows)
-                    {
-                        dr["BarCode"] = bytBarcode;
-                    }
-                }
-            }
-            catch(Exception ex)
-            {
-                Utility.CatchException(ex);
-            }
-        }
-        public static void CreateBarcodeDataMarby(ref DataTable dt, string _value)
-        {
-            try
-            {
-                if (!dt.Columns.Contains("BarCode")) dt.Columns.Add("BarCode", typeof(byte[]));
-                Mabry.Windows.Forms.Barcode.Barcode barcode = new Mabry.Windows.Forms.Barcode.Barcode();
-                barcode.BackColor = System.Drawing.Color.White;
-                barcode.BarColor = System.Drawing.Color.Black;
-                barcode.BarRatio = 2F;
-                barcode.Name = "barcode";
-                barcode.Size = new System.Drawing.Size(140, 80);
-                barcode.Symbology = Mabry.Windows.Forms.Barcode.Barcode.BarcodeSymbologies.Code128;
-                barcode.Data = _value;
-                barcode.Font = new Font("Arial", 10, FontStyle.Regular, GraphicsUnit.Pixel, 0); 
-                byte[] bytBarcode = Utility.GenerateBarCode(barcode);
-                foreach (DataRow dr in dt.Rows)
-                {
-                    dr["BarCode"] = bytBarcode;
-                }
-            }
-            catch
-            {
-            }
-        }
+        List<string> lstColNames = new List<string>() { "" };
+       
         public static string ConvertDataTableToXML(DataTable dtData)
         {
             DataSet dsData = new DataSet();
