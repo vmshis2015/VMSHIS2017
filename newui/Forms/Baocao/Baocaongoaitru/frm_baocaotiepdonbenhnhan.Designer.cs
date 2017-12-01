@@ -338,11 +338,10 @@
             this.chkChitiet.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkChitiet.Location = new System.Drawing.Point(761, 25);
             this.chkChitiet.Name = "chkChitiet";
-            this.chkChitiet.Size = new System.Drawing.Size(10, 23);
+            this.chkChitiet.Size = new System.Drawing.Size(211, 23);
             this.chkChitiet.TabIndex = 7;
             this.chkChitiet.Text = "Chi tiết theo từng Bệnh nhân?";
             this.toolTip1.SetToolTip(this.chkChitiet, "Bỏ chọn mục này để báo cáo theo số lượng tổng hợp");
-            this.chkChitiet.Visible = false;
             // 
             // panel1
             // 

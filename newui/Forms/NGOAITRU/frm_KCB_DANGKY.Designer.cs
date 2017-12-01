@@ -109,12 +109,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lblDiachiBN = new System.Windows.Forms.Label();
             this.pnlBHYT = new System.Windows.Forms.Panel();
+            this.txtQRCode = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
             this.lbldu5nam = new System.Windows.Forms.Label();
             this.dtpNgaydu5nam = new Janus.Windows.CalendarCombo.CalendarCombo();
             this.lblTuyenBHYT = new System.Windows.Forms.Label();
             this.txtNoiCapThe = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
             this.txtClinicName = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
-            this.txtQRCode = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
             this.txtNoiDKKCBBD = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
             this.txtNoiDongtrusoKCBBD = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
             this.txtOthu6 = new Janus.Windows.GridEX.EditControls.MaskedEditBox();
@@ -1220,6 +1220,16 @@
             this.pnlBHYT.TabIndex = 0;
             this.pnlBHYT.TabStop = true;
             // 
+            // txtQRCode
+            // 
+            this.txtQRCode.BackColor = System.Drawing.Color.White;
+            this.txtQRCode.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtQRCode.Location = new System.Drawing.Point(123, 5);
+            this.txtQRCode.Name = "txtQRCode";
+            this.txtQRCode.Size = new System.Drawing.Size(686, 21);
+            this.txtQRCode.TabIndex = 0;
+            this.txtQRCode.VisualStyle = Janus.Windows.GridEX.VisualStyle.Office2003;
+            // 
             // lbldu5nam
             // 
             this.lbldu5nam.BackColor = System.Drawing.Color.Transparent;
@@ -1286,16 +1296,6 @@
             this.txtClinicName.TabIndex = 614;
             this.txtClinicName.TabStop = false;
             this.txtClinicName.VisualStyle = Janus.Windows.GridEX.VisualStyle.Office2003;
-            // 
-            // txtQRCode
-            // 
-            this.txtQRCode.BackColor = System.Drawing.Color.White;
-            this.txtQRCode.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQRCode.Location = new System.Drawing.Point(123, 5);
-            this.txtQRCode.Name = "txtQRCode";
-            this.txtQRCode.Size = new System.Drawing.Size(686, 21);
-            this.txtQRCode.TabIndex = 0;
-            this.txtQRCode.VisualStyle = Janus.Windows.GridEX.VisualStyle.Office2003;
             // 
             // txtNoiDKKCBBD
             // 
@@ -1983,7 +1983,6 @@
             this.txtLoaikham.RaiseEvent = false;
             this.txtLoaikham.RaiseEventEnter = false;
             this.txtLoaikham.RaiseEventEnterWhenEmpty = false;
-            this.txtLoaikham.ReadOnly = true;
             this.txtLoaikham.SelectedIndex = -1;
             this.txtLoaikham.Size = new System.Drawing.Size(221, 21);
             this.txtLoaikham.splitChar = '@';

@@ -1977,7 +1977,7 @@ namespace VNS.HIS.UI.Forms.NGOAITRU
                     grdRegExam.UpdateData();
                 }
                 DataTable v_dtData = _kcbDangky.LayThongtinInphieuKCB(reg_id);
-                Utility.CreateBarcodeData(ref v_dtData, Utility.sDbnull(grdRegExam.GetValue(KcbDangkyKcb.Columns.MaLuotkham)));
+                //Utility.CreateBarcodeData(ref v_dtData, Utility.sDbnull(grdRegExam.GetValue(KcbDangkyKcb.Columns.MaLuotkham)));
                 v_dtData.AcceptChanges();
                 if (v_dtData.Rows.Count <= 0)
                 {

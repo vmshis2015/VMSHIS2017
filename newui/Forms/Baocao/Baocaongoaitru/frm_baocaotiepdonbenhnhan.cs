@@ -92,7 +92,6 @@ namespace VNS.HIS.UI.Baocao
             {
                 Utility.CatchException("Lỗi khi load chức năng!", ex);
             }
-
         }
         private void Autocompletenhanvien()
         {

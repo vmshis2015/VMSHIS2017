@@ -1452,7 +1452,7 @@ namespace VNS.HIS.UI.NGOAITRU
                     grdRegExam.UpdateData();
                 }
                 DataTable v_dtData = _KCB_DANGKY.LayThongtinInphieuKCB(IdKham);
-                Utility.CreateBarcodeData(ref v_dtData, Utility.sDbnull(grdRegExam.GetValue(KcbDangkyKcb.Columns.MaLuotkham)));
+                //Utility.CreateBarcodeData(ref v_dtData, Utility.sDbnull(grdRegExam.GetValue(KcbDangkyKcb.Columns.MaLuotkham)));
                 if (v_dtData.Rows.Count <= 0)
                 {
                     Utility.ShowMsg("Không tìm thấy bản ghi nào", "Thông báo");

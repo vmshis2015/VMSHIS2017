@@ -814,16 +814,16 @@ namespace VNS.HIS.UI.NGOAITRU
 
         private void AddtoView(DataRow newDr, decimal newQuantity)
         {
-            DataRow[] rowArray =
-                m_dtDonthuocChitiet_View.Select(KcbDonthuocChitiet.Columns.IdThuoc + "=" +
+            string filter = KcbDonthuocChitiet.Columns.IdThuoc + "=" +
                                                 Utility.sDbnull(newDr[KcbDonthuocChitiet.Columns.IdThuoc], "-1") +
-                                                "AND " + KcbDonthuocChitiet.Columns.DonGia + "=" +
+                                                " AND " + KcbDonthuocChitiet.Columns.DonGia + "=" +
                                                 Utility.sDbnull(newDr[KcbDonthuocChitiet.Columns.DonGia], "-1")
                                                 + " AND PHU_THU=" +
                                                 Utility.sDbnull(newDr[KcbDonthuocChitiet.Columns.PhuThu], "-1")
                                                 + " AND tu_tuc=" +
-                                                Utility.sDbnull(newDr[KcbDonthuocChitiet.Columns.TuTuc], "-1")
-                    );
+                                                Utility.sDbnull(newDr[KcbDonthuocChitiet.Columns.TuTuc], "-1");
+            DataRow[] rowArray =
+                m_dtDonthuocChitiet_View.Select(filter);
             if (rowArray.Length <= 0)
             {
                 m_dtDonthuocChitiet_View.ImportRow(newDr);

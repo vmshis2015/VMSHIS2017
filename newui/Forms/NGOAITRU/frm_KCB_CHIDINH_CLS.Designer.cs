@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel7 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel8 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel9 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel10 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel11 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
-            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel12 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel1 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel2 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel3 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel4 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel5 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
+            Janus.Windows.UI.StatusBar.UIStatusBarPanel uiStatusBarPanel6 = new Janus.Windows.UI.StatusBar.UIStatusBarPanel();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_KCB_CHIDINH_CLS));
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem4 = new Janus.Windows.EditControls.UIComboBoxItem();
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem5 = new Janus.Windows.EditControls.UIComboBoxItem();
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem6 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem1 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem2 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem3 = new Janus.Windows.EditControls.UIComboBoxItem();
             Janus.Windows.GridEX.GridEXLayout grdServiceDetail_DesignTimeLayout = new Janus.Windows.GridEX.GridEXLayout();
             Janus.Windows.GridEX.GridEXLayout grdAssignDetail_DesignTimeLayout = new Janus.Windows.GridEX.GridEXLayout();
             this.uiStatusBar1 = new Janus.Windows.UI.StatusBar.UIStatusBar();
@@ -123,50 +123,50 @@
             this.uiStatusBar1.Font = new System.Drawing.Font("Arial", 9F);
             this.uiStatusBar1.Location = new System.Drawing.Point(0, 665);
             this.uiStatusBar1.Name = "uiStatusBar1";
-            uiStatusBarPanel7.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel7.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel7.Key = "";
-            uiStatusBarPanel7.ProgressBarValue = 0;
-            uiStatusBarPanel7.Text = "Ctrl+S: Ghi";
-            uiStatusBarPanel7.Width = 74;
-            uiStatusBarPanel8.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel8.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel8.Key = "";
-            uiStatusBarPanel8.ProgressBarValue = 0;
-            uiStatusBarPanel8.Text = "Ctrl+D: Xóa";
-            uiStatusBarPanel8.Width = 77;
-            uiStatusBarPanel9.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel9.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel9.Key = "";
-            uiStatusBarPanel9.ProgressBarValue = 0;
-            uiStatusBarPanel9.Text = "F4: in phiếu";
-            uiStatusBarPanel9.Width = 79;
-            uiStatusBarPanel10.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel10.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel10.Key = "";
-            uiStatusBarPanel10.ProgressBarValue = 0;
-            uiStatusBarPanel10.Text = "F2: Lọc nhanh";
-            uiStatusBarPanel10.Width = 93;
-            uiStatusBarPanel11.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel11.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel11.Key = "";
-            uiStatusBarPanel11.ProgressBarValue = 0;
-            uiStatusBarPanel11.Text = "Esc:Thoát ";
-            uiStatusBarPanel11.Width = 73;
-            uiStatusBarPanel12.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
-            uiStatusBarPanel12.BorderColor = System.Drawing.Color.Empty;
-            uiStatusBarPanel12.FormatStyle.FontBold = Janus.Windows.UI.TriState.True;
-            uiStatusBarPanel12.Key = "lblStatus";
-            uiStatusBarPanel12.ProgressBarValue = 0;
-            uiStatusBarPanel12.Text = "Msg";
-            uiStatusBarPanel12.Width = 39;
+            uiStatusBarPanel1.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel1.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel1.Key = "";
+            uiStatusBarPanel1.ProgressBarValue = 0;
+            uiStatusBarPanel1.Text = "Ctrl+S: Ghi";
+            uiStatusBarPanel1.Width = 74;
+            uiStatusBarPanel2.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel2.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel2.Key = "";
+            uiStatusBarPanel2.ProgressBarValue = 0;
+            uiStatusBarPanel2.Text = "Ctrl+D: Xóa";
+            uiStatusBarPanel2.Width = 77;
+            uiStatusBarPanel3.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel3.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel3.Key = "";
+            uiStatusBarPanel3.ProgressBarValue = 0;
+            uiStatusBarPanel3.Text = "F4: in phiếu";
+            uiStatusBarPanel3.Width = 79;
+            uiStatusBarPanel4.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel4.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel4.Key = "";
+            uiStatusBarPanel4.ProgressBarValue = 0;
+            uiStatusBarPanel4.Text = "F2: Lọc nhanh";
+            uiStatusBarPanel4.Width = 93;
+            uiStatusBarPanel5.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel5.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel5.Key = "";
+            uiStatusBarPanel5.ProgressBarValue = 0;
+            uiStatusBarPanel5.Text = "Esc:Thoát ";
+            uiStatusBarPanel5.Width = 73;
+            uiStatusBarPanel6.AutoSize = System.Windows.Forms.StatusBarPanelAutoSize.Contents;
+            uiStatusBarPanel6.BorderColor = System.Drawing.Color.Empty;
+            uiStatusBarPanel6.FormatStyle.FontBold = Janus.Windows.UI.TriState.True;
+            uiStatusBarPanel6.Key = "lblStatus";
+            uiStatusBarPanel6.ProgressBarValue = 0;
+            uiStatusBarPanel6.Text = "Msg";
+            uiStatusBarPanel6.Width = 39;
             this.uiStatusBar1.Panels.AddRange(new Janus.Windows.UI.StatusBar.UIStatusBarPanel[] {
-            uiStatusBarPanel7,
-            uiStatusBarPanel8,
-            uiStatusBarPanel9,
-            uiStatusBarPanel10,
-            uiStatusBarPanel11,
-            uiStatusBarPanel12});
+            uiStatusBarPanel1,
+            uiStatusBarPanel2,
+            uiStatusBarPanel3,
+            uiStatusBarPanel4,
+            uiStatusBarPanel5,
+            uiStatusBarPanel6});
             this.uiStatusBar1.Size = new System.Drawing.Size(1014, 27);
             this.uiStatusBar1.TabIndex = 5;
             this.uiStatusBar1.TabStop = false;
@@ -430,22 +430,22 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cboDichVu.BorderStyle = Janus.Windows.UI.BorderStyle.Flat;
             this.cboDichVu.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            uiComboBoxItem4.FormatStyle.Alpha = 0;
-            uiComboBoxItem4.IsSeparator = false;
-            uiComboBoxItem4.Text = "Nữ";
-            uiComboBoxItem4.Value = 1;
-            uiComboBoxItem5.FormatStyle.Alpha = 0;
-            uiComboBoxItem5.IsSeparator = false;
-            uiComboBoxItem5.Text = "Nam";
-            uiComboBoxItem5.Value = 0;
-            uiComboBoxItem6.FormatStyle.Alpha = 0;
-            uiComboBoxItem6.IsSeparator = false;
-            uiComboBoxItem6.Text = "Khác";
-            uiComboBoxItem6.Value = 2;
+            uiComboBoxItem1.FormatStyle.Alpha = 0;
+            uiComboBoxItem1.IsSeparator = false;
+            uiComboBoxItem1.Text = "Nữ";
+            uiComboBoxItem1.Value = 1;
+            uiComboBoxItem2.FormatStyle.Alpha = 0;
+            uiComboBoxItem2.IsSeparator = false;
+            uiComboBoxItem2.Text = "Nam";
+            uiComboBoxItem2.Value = 0;
+            uiComboBoxItem3.FormatStyle.Alpha = 0;
+            uiComboBoxItem3.IsSeparator = false;
+            uiComboBoxItem3.Text = "Khác";
+            uiComboBoxItem3.Value = 2;
             this.cboDichVu.Items.AddRange(new Janus.Windows.EditControls.UIComboBoxItem[] {
-            uiComboBoxItem4,
-            uiComboBoxItem5,
-            uiComboBoxItem6});
+            uiComboBoxItem1,
+            uiComboBoxItem2,
+            uiComboBoxItem3});
             this.cboDichVu.Location = new System.Drawing.Point(694, 15);
             this.cboDichVu.Name = "cboDichVu";
             this.cboDichVu.Size = new System.Drawing.Size(308, 21);
@@ -653,7 +653,6 @@
             // 
             this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer4.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainer4.IsSplitterFixed = true;
             this.splitContainer4.Location = new System.Drawing.Point(0, 0);
             this.splitContainer4.Name = "splitContainer4";
             this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
@@ -661,10 +660,12 @@
             // splitContainer4.Panel1
             // 
             this.splitContainer4.Panel1.Controls.Add(this.uiGroupBox4);
+            this.splitContainer4.Panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             // 
             // splitContainer4.Panel2
             // 
             this.splitContainer4.Panel2.Controls.Add(this.uiGroupBox5);
+            this.splitContainer4.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.splitContainer4.Size = new System.Drawing.Size(486, 541);
             this.splitContainer4.SplitterDistance = 475;
             this.splitContainer4.TabIndex = 0;

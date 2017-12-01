@@ -1694,8 +1694,7 @@ namespace VNS.HIS.UI.Forms.CanLamSang
                         Utility.ShowMsg("Không nạp được file word.");
                         return;
                     }
-                    _doc.MailMerge.MergeImageField += MailMerge_MergeImageField;
-                    _doc.MailMerge.MergeField += MailMerge_MergeField;
+                   
                     _doc.MailMerge.Execute(fieldNames.ToArray(), values.ToArray());
 
                     if (File.Exists(fileKetqua))
@@ -1811,28 +1810,7 @@ namespace VNS.HIS.UI.Forms.CanLamSang
             }
         }
 
-        private void MailMerge_MergeField(object sender, MergeFieldEventArgs e)
-        {
-            if (e.FieldName.Contains("imgPath"))
-            {
-                var builder = new DocumentBuilder(e.Document);
-
-                // The code below should be adapted to your application specifics.
-                byte[] imageData = GetImgFile(e.FieldName);
-
-                InsertImage(e.FieldName, imageData, builder);
-            }
-        }
-
-        private void MailMerge_MergeImageField(object sender, MergeImageFieldEventArgs e)
-        {
-            var builder = new DocumentBuilder(e.Document);
-
-            // The code below should be adapted to your application specifics.
-            byte[] imageData = GetImgFile(e.FieldName);
-
-            InsertImage(e.FieldName, imageData, builder);
-        }
+       
 
         private byte[] GetImgFile(string fieldName)
         {

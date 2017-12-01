@@ -528,8 +528,8 @@ namespace VNS.HIS.UI.NGOAITRU
             try
             {
                 cmdSave.Enabled = false;
-                SaveData();
-                if (PropertyLib._HISCLSProperties.ThoatSauKhiLuu || m_blnCancel == false)
+                
+                if (SaveData() && (PropertyLib._HISCLSProperties.ThoatSauKhiLuu || m_blnCancel == false))
                 {
                     this.Dispose();
                 }
@@ -680,7 +680,7 @@ namespace VNS.HIS.UI.NGOAITRU
             if (_hasLoadPrintType) return;
             _hasLoadPrintType = true;
             //chkIntach.Visible = true;
-            //cboServicePrint.Visible = true;
+            //cboServicePrint.Visible = true;txtBacsi
          //   DataTable dtNhomin = THU_VIEN_CHUNG.LayDulieuDanhmucChung("NHOM_INPHIEU_CLS", true);
             DataBinding.BindDataCombox(cboServicePrint, globalVariables.gv_dtNhomInCLS, DmucChung.Columns.Ma, DmucChung.Columns.Ten, "Tất cả", true);
         }
