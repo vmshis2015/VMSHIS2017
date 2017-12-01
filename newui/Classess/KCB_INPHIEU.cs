@@ -278,13 +278,6 @@ namespace VNS.HIS.UI.Classess
                             {
                                 //   THU_VIEN_CHUNG.CreateXML(dt, "Thamkham_InTachToanBophieuCLS.XML");
                                 Utility.UpdateLogotoDatatable(ref dt);
-                                string vMachidinh = vAssignCode;
-                                if (THU_VIEN_CHUNG.Laygiatrithamsohethong("CHIDINH_BODAUCHAM_TRENMAVACH", "0", false) ==
-                                    "1")
-                                {
-                                    vMachidinh = vAssignCode.Replace(".", "");
-                                }
-                                Utility.CreateBarcodeData(ref dt, vMachidinh);
                                 string manhomcls = nhomcls;
                                 string tieude = "";
                                 ReportDocument crpt = Utility.GetReport(manhomcls, ref tieude, ref manhomcls);
@@ -386,13 +379,7 @@ namespace VNS.HIS.UI.Classess
                             {
                                 //   THU_VIEN_CHUNG.CreateXML(dt, "Thamkham_InTachToanBophieuCLS.XML");
                                 Utility.UpdateLogotoDatatable(ref dt);
-                                string vMachidinh = vAssignCode;
-                                if (THU_VIEN_CHUNG.Laygiatrithamsohethong("CHIDINH_BODAUCHAM_TRENMAVACH", "0", false) ==
-                                    "1")
-                                {
-                                    vMachidinh = vAssignCode.Replace(".", "");
-                                }
-                                Utility.CreateBarcodeData(ref dt, vMachidinh);
+                                
                                 string manhomcls = nhomcls;
                                 string tieude = "";
                                 ReportDocument crpt = Utility.GetReport(manhomcls, ref tieude, ref manhomcls);
@@ -498,12 +485,6 @@ namespace VNS.HIS.UI.Classess
                         }
                         //   THU_VIEN_CHUNG.CreateXML(dt, "Thamkham_InphieuCLS.XML");
                         Utility.UpdateLogotoDatatable(ref dt);
-                        string vMachidinh = vAssignCode;
-                        if (THU_VIEN_CHUNG.Laygiatrithamsohethong("CHIDINH_BODAUCHAM_TRENMAVACH", "0", true) == "1")
-                        {
-                            vMachidinh = vAssignCode.Replace(".", "");
-                        }
-                        Utility.CreateBarcodeData(ref dt, vMachidinh);
                         string reportCode;
                         string khoGiay = "A5";
                         bool inchung = false;
@@ -701,12 +682,7 @@ namespace VNS.HIS.UI.Classess
                         }
                         //   THU_VIEN_CHUNG.CreateXML(dt, "Thamkham_InphieuCLS.XML");
                         Utility.UpdateLogotoDatatable(ref dt);
-                        string vMachidinh = vAssignCode;
-                        if (THU_VIEN_CHUNG.Laygiatrithamsohethong("CHIDINH_BODAUCHAM_TRENMAVACH", "0", true) == "1")
-                        {
-                            vMachidinh = vAssignCode.Replace(".", "");
-                        }
-                        Utility.CreateBarcodeData(ref dt, vMachidinh);
+                        
                         string reportCode;
                         string khoGiay = "A5";
                         bool inchung = false;
