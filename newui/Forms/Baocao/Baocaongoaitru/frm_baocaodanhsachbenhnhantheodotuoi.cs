@@ -155,7 +155,7 @@ namespace VNS.HIS.UI.Baocao
                     }
                     else
                     {
-                        RowFiler = "Tuoi >" + Utility.Int32Dbnull(txtTuTuoi.Text, -1) + " and Tuoi <=" + Utility.Int32Dbnull(txtDenTuoi.Text, -1) + "";
+                        RowFiler = "Tuoi >=" + Utility.Int32Dbnull(txtTuTuoi.Text, -1) + " and Tuoi <=" + Utility.Int32Dbnull(txtDenTuoi.Text, -1) + "";
                     }
 
                 }
@@ -226,6 +226,7 @@ namespace VNS.HIS.UI.Baocao
                 crpt.SetParameterValue("Phone", globalVariables.Branch_Phone);
                 crpt.SetParameterValue("FromDateToDate", Condition);
                 crpt.SetParameterValue("sTitleReport", tieude);
+                Utility.SetParameterValue(crpt, "ParentBranchName", globalVariables.ParentBranch_Name);
                 crpt.SetParameterValue("sCurrentDate", Utility.FormatDateTimeWithThanhPho(dtNgayInPhieu.Value));
                 crpt.SetParameterValue("BottomCondition", THU_VIEN_CHUNG.BottomCondition());
                 objForm.crptViewer.ReportSource = crpt;

@@ -193,7 +193,6 @@
             this.cboGT.Size = new System.Drawing.Size(92, 21);
             this.cboGT.TabIndex = 128;
             this.cboGT.Text = "Giới tính";
-            this.cboGT.Visible = false;
             // 
             // label6
             // 
@@ -203,7 +202,6 @@
             this.label6.TabIndex = 127;
             this.label6.Text = "Giới tính: ";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label6.Visible = false;
             // 
             // txtNhanvien
             // 
@@ -256,13 +254,12 @@
             this.chkLoaitimkiem.Checked = true;
             this.chkLoaitimkiem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkLoaitimkiem.ForeColor = System.Drawing.Color.Navy;
-            this.chkLoaitimkiem.Location = new System.Drawing.Point(541, 100);
+            this.chkLoaitimkiem.Location = new System.Drawing.Point(462, 106);
             this.chkLoaitimkiem.Name = "chkLoaitimkiem";
             this.chkLoaitimkiem.Size = new System.Drawing.Size(183, 23);
             this.chkLoaitimkiem.TabIndex = 8;
             this.chkLoaitimkiem.Text = "Dịch vụ chưa thanh toán";
             this.toolTip1.SetToolTip(this.chkLoaitimkiem, "Bỏ check sẽ tìm theo ngày chốt viện phí");
-            this.chkLoaitimkiem.Visible = false;
             // 
             // label2
             // 

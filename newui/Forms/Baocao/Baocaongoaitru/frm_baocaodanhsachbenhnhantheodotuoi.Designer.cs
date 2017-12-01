@@ -30,9 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_baocaodanhsachbenhnhantheodotuoi));
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem4 = new Janus.Windows.EditControls.UIComboBoxItem();
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem5 = new Janus.Windows.EditControls.UIComboBoxItem();
-            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem6 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem1 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem2 = new Janus.Windows.EditControls.UIComboBoxItem();
+            Janus.Windows.EditControls.UIComboBoxItem uiComboBoxItem3 = new Janus.Windows.EditControls.UIComboBoxItem();
             Janus.Windows.GridEX.GridEXLayout grdChitiet_DesignTimeLayout = new Janus.Windows.GridEX.GridEXLayout();
             this.cmdExportToExcel = new Janus.Windows.EditControls.UIButton();
             this.dtNgayInPhieu = new Janus.Windows.CalendarCombo.CalendarCombo();
@@ -48,7 +48,6 @@
             this.cboGT = new Janus.Windows.EditControls.UIComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtDenTuoi = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.chkDoTuoi = new Janus.Windows.EditControls.UICheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -62,6 +61,7 @@
             this.chkByDate = new Janus.Windows.EditControls.UICheckBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.baocaO_TIEUDE1 = new VNS.HIS.UI.FORMs.BAOCAO.BHYT.UserControls.BAOCAO_TIEUDE();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cboSoSanh)).BeginInit();
             this.cboSoSanh.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -178,7 +178,7 @@
             "     Bằng(=)",
             "     Lớn hơn(>=)",
             "     Nhỏ hơn(<=)"});
-            this.cboEqual.Location = new System.Drawing.Point(480, 53);
+            this.cboEqual.Location = new System.Drawing.Point(481, 53);
             this.cboEqual.Name = "cboEqual";
             this.cboEqual.Size = new System.Drawing.Size(95, 23);
             this.cboEqual.TabIndex = 124;
@@ -194,22 +194,22 @@
             // cboGT
             // 
             this.cboGT.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            uiComboBoxItem4.FormatStyle.Alpha = 0;
-            uiComboBoxItem4.IsSeparator = false;
-            uiComboBoxItem4.Text = "Giới tính";
-            uiComboBoxItem4.Value = -1;
-            uiComboBoxItem5.FormatStyle.Alpha = 0;
-            uiComboBoxItem5.IsSeparator = false;
-            uiComboBoxItem5.Text = "Nam";
-            uiComboBoxItem5.Value = 0;
-            uiComboBoxItem6.FormatStyle.Alpha = 0;
-            uiComboBoxItem6.IsSeparator = false;
-            uiComboBoxItem6.Text = "Nữ";
-            uiComboBoxItem6.Value = 1;
+            uiComboBoxItem1.FormatStyle.Alpha = 0;
+            uiComboBoxItem1.IsSeparator = false;
+            uiComboBoxItem1.Text = "Giới tính";
+            uiComboBoxItem1.Value = -1;
+            uiComboBoxItem2.FormatStyle.Alpha = 0;
+            uiComboBoxItem2.IsSeparator = false;
+            uiComboBoxItem2.Text = "Nam";
+            uiComboBoxItem2.Value = 0;
+            uiComboBoxItem3.FormatStyle.Alpha = 0;
+            uiComboBoxItem3.IsSeparator = false;
+            uiComboBoxItem3.Text = "Nữ";
+            uiComboBoxItem3.Value = 1;
             this.cboGT.Items.AddRange(new Janus.Windows.EditControls.UIComboBoxItem[] {
-            uiComboBoxItem4,
-            uiComboBoxItem5,
-            uiComboBoxItem6});
+            uiComboBoxItem1,
+            uiComboBoxItem2,
+            uiComboBoxItem3});
             this.cboGT.ItemsFormatStyle.FontBold = Janus.Windows.UI.TriState.True;
             this.cboGT.Location = new System.Drawing.Point(642, 80);
             this.cboGT.Name = "cboGT";
@@ -234,16 +234,6 @@
             this.txtDenTuoi.Name = "txtDenTuoi";
             this.txtDenTuoi.Size = new System.Drawing.Size(92, 21);
             this.txtDenTuoi.TabIndex = 123;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(581, 60);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 17);
-            this.label5.TabIndex = 122;
-            this.label5.Text = "------->";
             // 
             // chkDoTuoi
             // 
@@ -399,6 +389,16 @@
             this.baocaO_TIEUDE1.TIEUDE = "THỐNG KÊ BỆNH NHÂN THEO ĐỘ TUỔI";
             this.baocaO_TIEUDE1.TitleFont = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Image = ((System.Drawing.Image)(resources.GetObject("label5.Image")));
+            this.label5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label5.Location = new System.Drawing.Point(581, 60);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 17);
+            this.label5.TabIndex = 122;
+            // 
             // frm_baocaodanhsachbenhnhantheodotuoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -455,9 +455,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cboEqual;
         private System.Windows.Forms.TextBox txtDenTuoi;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private Janus.Windows.EditControls.UIComboBox cboGT;
         private System.Windows.Forms.TextBox txtTuTuoi;
+        private System.Windows.Forms.Label label5;
     }
 }
